@@ -20,7 +20,7 @@ function Home() {
       <img
         src={
           loc && loc.state && loc.state.userData
-            ? `http://localhost:5678/${loc.state.userData.profilePic}`
+            ? `/${loc.state.userData.profilePic}`
             : null
         }
       ></img>
